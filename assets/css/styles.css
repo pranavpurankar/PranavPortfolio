@@ -104,7 +104,15 @@ img {
 }
 
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme{
+  --first-color: rgb(234, 50, 53);
+  --black-color: hsl(0, 0%, 18%);
+  --black-color-light: hsl(0, 0, 30%);
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+  --body-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 12%);
+}
 
 /*========== 
 	Color changes in some parts of 
