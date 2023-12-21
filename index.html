@@ -30,7 +30,7 @@
 
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link">Home</a>
+                     <a href="#home" class="nav__link active-link">Home</a>
                   </li>
 
                   <li class="nav__item">
@@ -53,6 +53,9 @@
             </div>
 
             <div class="nav__buttons">
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
                <!-- Toggle button -->
                <div class="nav__toggle" id="nav-toggle">
                   <i class="ri-menu-4-line"></i>
@@ -65,43 +68,464 @@
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Pranav Purankar
+               </h1>
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/img/home-perfil.jpg" alt="image" class="home__img">
+                     <div class="home__shadow"></div>
+                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
+
+                     <div class="geometric-box"></div>
+                  </div>
+
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/in/pranavpurankar/" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                     </a>
+                     <a href="https://github.com/pranavpurankar" target="_blank" class="home__social-link">
+                        <i class="ri-github-fill"></i>
+                     </a>
+                     <a href="https://www.cloudskillsboost.google/public_profiles/f974cabc-5d5d-457a-9fa1-d557e6e55304" target="_blank" class="home__social-link">
+                        <i class="ri-google-fill"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="home__info">
+                  <p class="home__description">
+                     <b>Data Analyst</b>, with knowledge in web development and design, I offer the best projects resulting in quality work.
+                  </p>
+
+                  <a href="#about" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-s-line"></i>
+                     </div>
+
+                     <span class="home__scroll-text"></span>
+                  </a>
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                  About Me
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="assets/img/about-perfil.jpg" alt="Image of Pranav Purankar" class="about__img">
+
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+                     <img src="assets/img/about-line.svg" alt="" class="about__line">
+                     <div class="about__box"></div>
+                  </div>
+               </div>
+
+               <div class="about__info">
+                  <p class="about__description">
+                     Passionate about creating <b>Web Pages</b> with <b>UI/UX User Interface</b>, I have years of experience and many clients are happy with the projects carried out.
+                  </p>
+
+                  <ul class="about__list">
+                     <li class="about">
+                        <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Git & Github, Boostrap, Flutter & Figma.
+                     </li>
+                  </ul>
+
+                  <div class="about__buttons">
+                     <a href="#contact" class="button">
+                        <i class="ri-send-plane-line"></i> Contact Me
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/pranavpurankar/" target="_blank" class="button__ghost">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
          </section>
 
-         <!--==================== SERVICES ====================-->
+         <!--==================== CERTIFICATIONS ====================-->
          <section class="services section">
-            
+            <h2 class="section__title-2">
+               <span>Certifications</span>
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-line-chart-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Data Analysis</h2>
+
+                     <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id temporibus velit excepturi omnis dignissimos aut perspiciatis qui soluta.
+                     </p>
+                     
+                     <div class="certification__buttons">
+                        <a href="#contact" class="button">
+                           <i class="ri-send-plane-line"></i> Verify
+                        </a>
+                     </div>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-database-2-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Database</h2>
+
+                     <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati animi veniam cumque eveniet a error, dolor ab nisi minima molestiae
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Python</h2>
+
+                     <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti, rerum totam adipisci officia alias? Pariatur dolore placeat numquam suscipit.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Statistics</h2>
+
+                     <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti, rerum totam adipisci officia alias? Pariatur dolore placeat numquam suscipit.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Google Cloud</h2>
+
+                     <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti, rerum totam adipisci officia alias? Pariatur dolore placeat numquam suscipit.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                     </div>
+
+                     <h2 class="services__title">BigQuery</h2>
+
+                     <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti, rerum totam adipisci officia alias? Pariatur dolore placeat numquam suscipit.
+                     </p>
+                  </div>
+               </article>
+            </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
-            
+            <h2 class="section__title-1">
+               <span>Projects</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/project-1.jpg" alt="" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">App</h3>
+                     <h2 class="projects__title">Cylistic Bike-Share</h2>
+
+                     <p class="projects__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quisquam ab vero deserunt distinctio eligendi quibusdam minima cumque ducimus eius.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-apps-line"></i> View
+                     </a>
+
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Code
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/project-2.jpg" alt="" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">App</h3>
+                     <h2 class="projects__title">Project Green Light</h2>
+
+                     <p class="projects__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quisquam ab vero deserunt distinctio eligendi quibusdam minima cumque ducimus eius.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-apps-line"></i> View
+                     </a>
+
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Code
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/project-3.jpg" alt="" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">App</h3>
+                     <h2 class="projects__title">Uber Cab</h2>
+
+                     <p class="projects__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quisquam ab vero deserunt distinctio eligendi quibusdam minima cumque ducimus eius.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-apps-line"></i> App
+                     </a>
+
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Code
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/project-3.jpg" alt="" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">GitHub</h3>
+                     <h2 class="projects__title">Social Media</h2>
+
+                     <p class="projects__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quisquam ab vero deserunt distinctio eligendi quibusdam minima cumque ducimus eius.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-apps-line"></i> App
+                     </a>
+
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Code
+                     </a>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== LOVE FOR DATA ====================-->
+         <section class="youtube section" id="youtube">
+            <h2 class="section__title-1">
+               <span>Data is everywhere</span>
+            </h2>
+            <div class="youtube__container">
+               <iframe style="border-radius: 15px;" width="100%" height="100%" src="https://www.youtube.com/embed/3xKwHbwxyas?si=gDTXh24yijgEAiFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Contact Me</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, unde?
+                  </p>
+
+                  <p class="contact__description-1">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, incidunt!
+                  </p>
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Send Me Message
+                  </h2>
+
+                  <form action="" class="contact__form" id="contact-form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                           <label for="name" class="contact__label">First Name</label>
+                        </div>
+
+                        <div class="contact__box">
+                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                           <label for="email" class="contact__label">Email Address</label>
+                        </div>
+                     </div>
+
+                     <div class="contact__box">
+                        <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                        <label for="subject" class="contact__label">Subject</label>
+                     </div>
+
+                     <div class="contact__box contact__area">
+                        <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                     </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
+                     <button types="submit" class="contact__button button">
+                        <i class="ri-mail-send-line"></i> Send Message
+                     </button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="assets/img/unit_circle.svg" alt="" class="contact__social-arrow">
+
+                  <div class="contact__social-data">
+                     <div>
+                        <p class="contact__social-description-1">
+                           “Without mathematics, there's nothing you can do. Everything around you is mathematics. Everything around you is numbers.” – Shakuntala Devi
+                        </p>
+                        <p class="contact__social-description-2">
+                           Write me on my social networks
+                        </p>
+                     </div>
+
+                     <div class="contact__social-links">
+                        <a href="" target="_blank" class="contact__social-link">
+                           <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="contact__social-link">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://youtube.com/@pranavpurankar?si=E26DOauUAiWHG--O" target="_blank" class="contact__social-link">
+                           <i class="ri-youtube-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+           
+               <li>
+                  <a href="#certification" class="footer__link">Certifications</a>
+               </li>
+
+               <li>
+                  <a href="#project" class="footer__link">Projects</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; All Rights Reserved By
+               <a href="">Pranav Purankar</a>
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
       
       <!--=============== EMAIL JS ===============-->
-      
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
